@@ -32,3 +32,8 @@ export HADOOP_COMMON_LIB_NATIVE_DIR=/home/debbeca/Documents/hadoop/lib/native
 export JAVA_HOME=/usr/  
 export JAVA_PATH=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$PATH:/home/debbeca/Documents/hadoop/sbin:/home/debbeca/Documents/hadoop/bin:$JAVA_PATH/bin 
+
+
+
+
+source : http://sharafjaffri.blogspot.fr/2015/04/installing-single-node-hadoop-26-using.html
