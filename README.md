@@ -23,3 +23,12 @@ tar xzf hadoop-2.6.0.tar.gz
 mkdir hadoop  
 mv hadoop-2.6.0/* hadoop/ 
 
+export HADOOP_HOME=/home/debbeca/Documents/hadoop  
+export HADOOP_MAPRED_HOME=/home/debbeca/Documents/hadoop  
+export HADOOP_COMMON_HOME=/home/debbeca/Documents/hadoop  
+export HADOOP_HDFS_HOME=/home/debbeca/Documents/hadoop  
+export YARN_HOME=/home/debbeca/Documents/hadoop  
+export HADOOP_COMMON_LIB_NATIVE_DIR=/home/debbeca/Documents/hadoop/lib/native  
+export JAVA_HOME=/usr/  
+export JAVA_PATH=/usr/lib/jvm/java-8-openjdk-amd64
+export PATH=$PATH:/home/debbeca/Documents/hadoop/sbin:/home/debbeca/Documents/hadoop/bin:$JAVA_PATH/bin 
