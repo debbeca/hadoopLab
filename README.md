@@ -33,7 +33,7 @@ export JAVA_HOME=/usr/
 export JAVA_PATH=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$PATH:/home/debbeca/Documents/hadoop/sbin:/home/debbeca/Documents/hadoop/bin:$JAVA_PATH/bin 
 
-
-
+make sure you add all those vars in hadoop-env.sh in
+~/Documents/hadoop/etc/hadoop
 
 source : http://sharafjaffri.blogspot.fr/2015/04/installing-single-node-hadoop-26-using.html
