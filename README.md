@@ -23,18 +23,18 @@ tar xzf hadoop-2.6.0.tar.gz
 mkdir hadoop  
 mv hadoop-2.6.0/* hadoop/ 
 
-export HADOOP_HOME=/home/debbeca/Documents/hadoop  
-export HADOOP_MAPRED_HOME=/home/debbeca/Documents/hadoop  
-export HADOOP_COMMON_HOME=/home/debbeca/Documents/hadoop  
-export HADOOP_HDFS_HOME=/home/debbeca/Documents/hadoop  
-export YARN_HOME=/home/debbeca/Documents/hadoop  
-export HADOOP_COMMON_LIB_NATIVE_DIR=/home/debbeca/Documents/hadoop/lib/native  
+export HADOOP_HOME=/usr/local/hadoop  
+export HADOOP_MAPRED_HOME=/usr/local/hadoop  
+export HADOOP_COMMON_HOME=/usr/local/hadoop  
+export HADOOP_HDFS_HOME=/usr/local/hadoop  
+export YARN_HOME=/usr/local/hadoop  
+export HADOOP_COMMON_LIB_NATIVE_DIR=/usr/local/hadoop/lib/native  
 export JAVA_HOME=/usr/  
 export JAVA_PATH=/usr/lib/jvm/java-8-openjdk-amd64
-export PATH=$PATH:/home/debbeca/Documents/hadoop/sbin:/home/debbeca/Documents/hadoop/bin:$JAVA_PATH/bin 
+export PATH=$PATH:/usr/local/hadoop/sbin:/usr/local/hadoop/bin:$JAVA_PATH/bin 
 
 make sure you add all those vars in hadoop-env.sh in
-~/Documents/hadoop/etc/hadoop
+/usr/local/hadoop/etc/hadoop
 
 #--------------------config hadoop -------------------------------#
 /hadoop/etc/hadoop  
