@@ -1,0 +1,6 @@
+# to format the name node: to exec on a fresh new hadoop fs
+hdfs namenode -format  
+# Start the dfs deamon 
+start-dfs.sh  
+# Monitor java deamons
+jps
