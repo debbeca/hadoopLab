@@ -8,7 +8,13 @@ hdfs namenode -format
 start-dfs.sh   
 -----------------
 
+* Start the Yarn deamon 
+-----------------
+start-yarn.sh   
+-----------------
+
 * Monitor java deamons
 -----------------
 jps  
 -----------------
+
