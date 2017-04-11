@@ -18,3 +18,9 @@ start-yarn.sh
 jps  
 -----------------
 
+source :
+no such directory problem :
+http://stackoverflow.com/questions/20821584/hadoop-2-2-installation-no-such-file-or-directory
+Native jvm :
+http://stackoverflow.com/questions/19943766/hadoop-unable-to-load-native-hadoop-library-for-your-platform-warning/19993403#19993403
+
