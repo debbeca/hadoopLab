@@ -18,9 +18,16 @@ start-yarn.sh
 jps  
 -----------------
 
-source :
-no such directory problem :
+* In order to create a hdfs directory .. first create the 'user directory' then create your folder
+-----------------
+hdfs dfs -mkdir -p /user/[your current user]
+hdfs dfs -mkdir -p /user/[your current user]/input
+-----------------
+
+
+* source :
+- no such directory problem :
 http://stackoverflow.com/questions/20821584/hadoop-2-2-installation-no-such-file-or-directory
-Native jvm :
+- Native jvm :
 http://stackoverflow.com/questions/19943766/hadoop-unable-to-load-native-hadoop-library-for-your-platform-warning/19993403#19993403
 
