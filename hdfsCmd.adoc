@@ -24,6 +24,12 @@ hdfs dfs -mkdir -p /user/[your current user]
 hdfs dfs -mkdir -p /user/[your current user]/input
 -----------------
 
+* monitor & report hdfs state
+-----------------
+hdfs dfsadmin -report
+-----------------
+
+
 
 * source :
 - no such directory problem :
