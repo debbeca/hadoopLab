@@ -24,7 +24,9 @@ sudo wget http://mirror.sdunix.com/apache/hadoop/common/hadoop-2.6.0/hadoop-2.6.
 tar xzf hadoop-2.6.0.tar.gz  
 mkdir hadoop  
 mv hadoop-2.6.0/* hadoop/ 
+-----------------
 
+-----------------
 export HADOOP_HOME=/usr/local/hadoop  
 export HADOOP_MAPRED_HOME=/usr/local/hadoop  
 export HADOOP_COMMON_HOME=/usr/local/hadoop  
