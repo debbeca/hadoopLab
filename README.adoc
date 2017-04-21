@@ -17,6 +17,7 @@ ssh-add
 
 
 #--------------------install hadoop -------------------------------#
+-----------------
 cd /usr/local  
 sudo wget http://mirror.sdunix.com/apache/hadoop/common/hadoop-2.6.0/hadoop-2.6.0.tar.gz  
 tar xzf hadoop-2.6.0.tar.gz  
@@ -32,6 +33,7 @@ export HADOOP_COMMON_LIB_NATIVE_DIR=/usr/local/hadoop/lib/native
 export JAVA_HOME=/usr/  
 export JAVA_PATH=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$PATH:/usr/local/hadoop/sbin:/usr/local/hadoop/bin:$JAVA_PATH/bin 
+-----------------
 
 make sure you add all those vars in hadoop-env.sh in
 /usr/local/hadoop/etc/hadoop
