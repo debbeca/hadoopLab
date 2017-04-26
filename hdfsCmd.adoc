@@ -1,3 +1,10 @@
+* To avoid any security problem, we need to first generate a public key and add it to knownhosts :
+-----------------
+ssh-keygen -t rsa -P ""
+cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
+ssh localhost
+-----------------
+
 * To format the name node: to exec on a fresh new hadoop fs
 -----------------
 hdfs namenode -format  
