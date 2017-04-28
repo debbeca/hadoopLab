@@ -31,6 +31,11 @@ hdfs dfs -mkdir -p /user/[your current user]
 hdfs dfs -mkdir -p /user/[your current user]/input
 -----------------
 
+* you also need to give to the user access to the hadoop folder :
+-----------------
+hadoop fs -chown username:username /user/username
+-----------------
+
 * monitor & report hdfs state
 -----------------
 hdfs dfsadmin -report
