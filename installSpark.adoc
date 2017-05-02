@@ -1,0 +1,15 @@
+* in order to install scala 
+-----------------
+sudo apt-get remove scala-library scala
+sudo wget http://www.scala-lang.org/files/archive/scala-2.11.7.deb
+sudo dpkg -i scala-2.11.7.deb
+sudo apt-get update
+sudo apt-get install scala
+-----------------
+
+ * In order to download & install spark
+----------------- 
+wget http://apache.mirrors.ionfish.org/spark/spark-1.4.0/spark-1.4.0-bin-hadoop2.6.tgz
+tar -zxvf spark-1.4.0-bin-hadoop2.6.tgz
+mv spark-1.4.0-bin-hadoop2.6 /usr/local/spark
+-----------------
