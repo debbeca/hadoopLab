@@ -45,6 +45,28 @@ OR
 hdfs fsck /
 -----------------
 
+ * In order to run a load balancer on nodes :
+-----------------
+star-balancer.sh
+-----------------
+
+ * A straightforward way to make backups is to use the dfsadmin command to download a copy of the namenode’s most recent fsimage
+-----------------
+hdfs dfsadmin -fetchImage fsimage.backup
+-----------------
+
+ * Update the namenode with the new set of permitted datanodes
+-----------------
+hdfs dfsadmin -refreshNodes
+-----------------
+
+ * Update the resource manager with the new set of permitted node managers
+-----------------
+yarn rmadmin -refreshNodes
+-----------------
+
+
+
 
 
 * source :
