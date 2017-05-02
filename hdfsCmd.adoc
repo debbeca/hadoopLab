@@ -40,6 +40,10 @@ hadoop fs -chown username:username /user/username
 -----------------
 hdfs dfsadmin -report
 -----------------
+OR
+-----------------
+hdfs fsck /
+-----------------
 
 
 
