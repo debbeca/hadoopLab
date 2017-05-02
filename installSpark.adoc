@@ -16,6 +16,14 @@ tar -zxvf spark-1.4.0-bin-hadoop2.6.tgz
 mv spark-1.4.0-bin-hadoop2.6 /usr/local/spark
 -----------------
 
+* Ajouter Spark home dans bashrc 
+-----------------
+sudo vi ~/.bashrc
+add
+export SPARK_HOME=/usr/local/spark
+source ~/.bashrc
+-----------------
+
 * Install spark and try it out 
 -----------------
 cd $SPARK_HOME
