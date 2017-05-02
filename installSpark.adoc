@@ -1,3 +1,5 @@
+==Spark startkit
+
 * in order to install scala 
 -----------------
 sudo apt-get remove scala-library scala
@@ -7,9 +9,15 @@ sudo apt-get update
 sudo apt-get install scala
 -----------------
 
- * In order to download & install spark
+ * In order to download & download spark
 ----------------- 
 wget http://apache.mirrors.ionfish.org/spark/spark-1.4.0/spark-1.4.0-bin-hadoop2.6.tgz
 tar -zxvf spark-1.4.0-bin-hadoop2.6.tgz
 mv spark-1.4.0-bin-hadoop2.6 /usr/local/spark
+-----------------
+
+* Install spark and try it out 
+-----------------
+cd $SPARK_HOME
+./bin/spark-shell
 -----------------
