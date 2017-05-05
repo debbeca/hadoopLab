@@ -29,3 +29,12 @@ source ~/.bashrc
 cd $SPARK_HOME
 ./bin/spark-shell
 -----------------
+
+* Oups ! For small machines you need to change some conf in spark-defaults.conf
+-----------------
+spark.executor.memory=2048mb
+spark.driver.memory 1g
+spark.executor.instances=1
+spark.executor.cores = 1
+spark.yarn.executor.memoryOverhead = 512
+-----------------
